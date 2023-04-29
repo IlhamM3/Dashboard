@@ -1,0 +1,63 @@
+:root {
+    --btncolor: #7286D3;
+    --second: #C7CFED;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: #7286D3;
+}
+
+body a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.c a:hover,
+a:active,
+a:focus {
+    color: #000;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: var(--btncolor) !important;
+    color: #fff !important;
+}
+
+.btn:hover {
+    background-color: var(--btncolor);
+    color: #fff;
+}
+
+.tes {
+    border: 2px solid black;
+}
+
+
+/* Navbar */
+
+#nav .logo {
+    color: var(--btncolor);
+    font-weight: 700;
+    font-size: 28px;
+}
+
+#nav .navbar-collapse {
+    margin-left: 100px;
+}
+
+#nav li {
+    margin: 0 25px;
+}
+
+#nav li a {
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
